@@ -1,12 +1,29 @@
-## 1.题目
+## Installation
 
-<img src="%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E5%AE%9E%E8%B7%B5.assets/%E6%88%AA%E5%B1%8F2023-01-04%2020.20.50.png" alt="截屏2023-01-04 20.20.50" style="zoom:33%;" />
+创建虚拟环境：
 
-#### 	数据集下载：
+```shell
+conda env create -f environment.yaml
+conda activate pre_music_year
+```
+
+##### 	原始数据集下载：
 
 ```shell
 wget http://millionsongdataset.com/sites/default/files/AdditionalFiles/TRAXLZU12903D05F94.h5
 ```
+
+处理后数据集下载（建议）：[csv文件](https://drive.google.com/drive/folders/1C5ZQZmKBBvcmk8t37Mo5FS0vZrFe_rKb?usp=share_link)
+
+下载后处理数据集：
+
+```shell
+sh ./deal_datasets.sh
+```
+
+## 1.题目
+
+<img src="%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E5%AE%9E%E8%B7%B5.assets/%E6%88%AA%E5%B1%8F2023-01-04%2020.20.50.png" alt="截屏2023-01-04 20.20.50" style="zoom:33%;" />
 
 ## 2.数据预处理
 
